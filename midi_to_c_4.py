@@ -65,12 +65,16 @@ def durasplit(note):
         return 4 / 3
     elif string_dura[1] == '5/3':
         return 5 / 3
+    elif string_dura[1] == '7/3':
+        return 7 / 3
     elif string_dura[1] == '8/3':
         return 8 / 3
     elif string_dura[1] == '10/3':
         return 10 / 3
     elif string_dura[1] == '11/3':
         return 10 / 3
+    elif string_dura[1] == '23/3':
+        return 23 / 3
     elif string_dura[1] == '44/3':
         return 44 / 3
     elif string_dura[1] == 'unlinked':
@@ -107,7 +111,7 @@ for i in range(0, buzzer_num):
     buzzer.append(0)
     buzzer_time.append(0)
 
-# music_name = "\omr"
+# music_name = "\omr_h"
 # music_name = "\Nokia"
 # music_name = "\Graze_the_Roof"
 # music_name = "\headD"
@@ -120,8 +124,9 @@ for i in range(0, buzzer_num):
 # music_name = "/xiatiandefeng"
 # music_name = "/hong_1"
 # music_name = "/xxx"
-music_name = "/hlxd_h"
+# music_name = "/hlxd_h"
 # music_name = "/dlaam"
+music_name = "\dshh"
 
 music_channle = 0
 
